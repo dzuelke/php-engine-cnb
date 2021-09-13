@@ -1,8 +1,8 @@
 api = "0.4"
 
 [buildpack]
-id = "dzuelke/php-engine-cnb"
-version = "0.0.0"
+id = "dzuelke/php-engine"
+version = "0.1.0"
 name = "Very basic buildpack that installs a fixed version of the PHP runtime"
 
 [[licenses]]
@@ -12,9 +12,7 @@ type = "MIT"
 id = "heroku-18"
 
 [[stacks]]
-id = "heroku-20"
-
-[[stacks]]
 id = "io.buildpacks.stacks.bionic"
 
 [metadata]
+php_url = "https://lang-php.s3.amazonaws.com/dist-heroku-18-stable/php-8.0.10.tar.gz"
